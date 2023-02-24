@@ -1,0 +1,6 @@
+{
+  "workspaces": [
+    "ambernote-webui"
+  ],
+  "private": true
+}

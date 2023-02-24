@@ -1,0 +1,155 @@
+- model: authx.user
+  pk: 1
+  fields:
+    password: argon2$argon2id$v=19$m=102400,t=2,p=8$YkEyeHBlc2RkWmZqTzIyN0lra2tKYw$HBtaUS/6vJyFJl9KIxOnuO2XR/ER82yXCFqmFK2v3/4  # pass-admin
+    last_login: null
+    is_superuser: true
+    is_staff: true
+    is_active: true
+    date_joined: 2023-02-15 07:52:47.157826+00:00
+    uuid: 9fede427-f904-4645-a272-96733185c0c7
+    fullname: Administrator
+    email: admin@testdata.org
+    extras: { }
+    created_at: 2023-02-15 07:52:47.163049+00:00
+    updated_at: 2023-02-15 07:52:47.163068+00:00
+    groups: [ ]
+    user_permissions: [ ]
+- model: authx.user
+  pk: 2
+  fields:
+    password: argon2$argon2id$v=19$m=102400,t=2,p=8$SDBJaDE3YUZHT29tNGFsM3U1dlJBeg$sW/8iUmTbwYhp7BDHIAv/tnsT6Xc5ohSTAM+y6jIf/A  # pass2
+    last_login: null
+    is_superuser: false
+    is_staff: false
+    is_active: true
+    date_joined: 2023-02-15 07:54:05.144347+00:00
+    uuid: 624b0569-dae2-408f-b7a3-f15ba6b7f504
+    fullname: Tester 2
+    email: user2@testdata.org
+    extras: { }
+    created_at: 2023-02-15 07:54:05.144760+00:00
+    updated_at: 2023-02-15 07:54:05.144780+00:00
+    groups: [ ]
+    user_permissions: [ ]
+- model: authx.user
+  pk: 3
+  fields:
+    password: argon2$argon2id$v=19$m=102400,t=2,p=8$N2RlMWQ1eDVRZW5HUHU5QW5WM0VzcA$068nqpAY2yZAKYD5f6slkz1B1M0Nt6IfRa5tPYVaFhc  # pass3
+    last_login: null
+    is_superuser: false
+    is_staff: false
+    is_active: true
+    date_joined: 2023-02-15 07:54:13.288229+00:00
+    uuid: 3e6d8a90-6a80-485f-bb73-324c16ca56ff
+    fullname: Tester 3
+    email: user3@testdata.org
+    extras: { }
+    created_at: 2023-02-15 07:54:13.288778+00:00
+    updated_at: 2023-02-15 07:54:13.288800+00:00
+    groups: [ ]
+    user_permissions: [ ]
+- model: authx.user
+  pk: 4
+  fields:
+    password: argon2$argon2id$v=19$m=102400,t=2,p=8$VlB6VmtHcTlaVnEyeE5EaTBHV0VMVg$P93bQnp1AvNY6P2dLQAVZZM5b12kifPT9ED8oTyKUG4  # pass4
+    last_login: null
+    is_superuser: false
+    is_staff: false
+    is_active: true
+    date_joined: 2023-02-15 07:54:22.618745+00:00
+    uuid: bcc16b7c-727b-442c-b813-4d2ac7b8218b
+    fullname: Tester 4
+    email: user4@testdata.org
+    extras: { }
+    created_at: 2023-02-15 07:54:22.619153+00:00
+    updated_at: 2023-02-15 07:54:22.619174+00:00
+    groups: [ ]
+    user_permissions: [ ]
+- model: authx.user
+  pk: 5
+  fields:
+    password: argon2$argon2id$v=19$m=102400,t=2,p=8$VkVlVHB5WHNVRkNoc0hQU3I4eXlSSw$AXEsRAX5Z+7fpSs1xP+tyljFG7A4pKKFozOf3n4svAQ  # pass5
+    last_login: null
+    is_superuser: false
+    is_staff: false
+    is_active: true
+    date_joined: 2023-02-15 07:54:32.186993+00:00
+    uuid: 1658d9a0-014e-4978-b58c-c510ddf3276f
+    fullname: Tester 5
+    email: user5@testdata.org
+    extras: { }
+    created_at: 2023-02-15 07:54:32.187454+00:00
+    updated_at: 2023-02-15 07:54:32.187475+00:00
+    groups: [ ]
+    user_permissions: [ ]
+- model: amber.notespace
+  pk: 1
+  fields:
+    uuid: 9595c040-e3ce-429c-8083-902ff560975b
+    type: 1
+    name: Personal Note Space 1 for Test
+    extras: { }
+    created_at: 2023-02-15 07:57:17.816915+00:00
+    updated_at: 2023-02-15 07:57:17.816956+00:00
+- model: amber.notespacemember
+  pk: 1
+  fields:
+    notespace: 1
+    user: 2
+    role: 1
+    extras: { }
+    created_at: 2023-02-15 08:01:29.101332+00:00
+    updated_at: 2023-02-15 08:01:29.101366+00:00
+- model: amber.notespacemember
+  pk: 2
+  fields:
+    notespace: 1
+    user: 3
+    role: 2
+    extras: { }
+    created_at: 2023-02-15 08:01:55.922131+00:00
+    updated_at: 2023-02-15 08:01:55.922166+00:00
+- model: amber.notespacemember
+  pk: 3
+  fields:
+    notespace: 1
+    user: 4
+    role: 3
+    extras: { }
+    created_at: 2023-02-15 08:02:03.616811+00:00
+    updated_at: 2023-02-15 08:02:03.616845+00:00
+- model: amber.tag
+  pk: 1
+  fields:
+    uuid: 5a04b40f-1955-4cd8-9787-2eedcb2ffc1a
+    notespace: 1
+    name: tag for test
+    extras: { }
+    created_at: 2023-02-15 08:04:24.147754+00:00
+    updated_at: 2023-02-15 08:04:24.147786+00:00
+- model: amber.note
+  pk: 1
+  fields:
+    uuid: d4f237a5-876c-4ebb-b4b0-c04345e4ac4c
+    title: test note 1
+    content: test content
+    revision: 1
+    is_archived: false
+    is_pinned: false
+    is_deleted: false
+    notespace: 1
+    extras: { }
+    created_at: 2023-02-16 06:14:20.570972+00:00
+    updated_at: 2023-02-16 06:14:20.571264+00:00
+    tags: [ ]
+- model: amber.notelog
+  pk: 1
+  fields:
+    uuid: e69a4912-94ba-47b2-927a-9b3a382df004
+    user: 2
+    note: 1
+    action: 1
+    extras: { }
+    created_at: 2023-02-16 06:15:18.484798+00:00
+    updated_at: 2023-02-16 06:15:18.484839+00:00
