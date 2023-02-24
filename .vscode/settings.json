@@ -1,0 +1,6 @@
+{
+  "[json][jsonc][html][javascript][typescript][javascriptreact][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.prettierPath": "${workspaceFolder}/node_modules/.bin/prettier"
+}
